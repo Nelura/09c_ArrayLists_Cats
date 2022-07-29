@@ -8,7 +8,7 @@ public class App {
 		
 		// Vorüberlegung
 		// Cat cat = new Cat("Grizabella");
-		// output(cat.getAttributes());
+		// // output(cat.getAttributes());
 		
 		//cat1 / cat2 .. more of the same ...DRY
 		// for (int i = 0; i < 10; i++) 
@@ -16,13 +16,19 @@ public class App {
 		// 	new Cat("someone_" + i); // Objekt, aber KEINE Referenz!
 		// }
 		
-		// String [] nameArr = {"Grizabella","Alonzo", "RumTumTugger","Suzanne"};
-		// ArrayList<Cat> objList = new ArrayList<>();
+		String [] nameArr = {"Grizabella","Alonzo", "RumTumTugger","Suzanne"};
+		ArrayList<Cat> objList = new ArrayList<>();
 
-		// for (int i = 0; i < nameArr.length; i++) 
-		// {
-		// 	objList.add(new Cat(nameArr[i]));
-		// }
+		for (int i = 0; i < nameArr.length; i++) 
+		// for (int i = 0; i < 4; i++) 
+		{
+			//objList.add(new Cat(nameArr[i]));
+			//output("Cats: " + objList);
+
+			// objList.add(new Cat("someone_" + i));
+		
+
+		}
 
 		// output("Cats: " + objList);
 		// output(objList.get(0).getAttributes());
